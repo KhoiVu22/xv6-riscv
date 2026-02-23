@@ -1,0 +1,5 @@
+{
+    "name": "Xv6 OS Lab - HCMUS",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y gcc-riscv64-linux-gnu gdb-multiarch qemu-system-misc make bc"
+}
